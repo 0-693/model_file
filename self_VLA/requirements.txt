@@ -1,0 +1,40 @@
+augmax>=0.3.4
+dm-tree>=0.1.8
+einops>=0.8.0
+equinox>=0.11.8
+flatbuffers>=24.3.25
+flax==0.10.2
+fsspec[gcs]==2024.3.1
+gym-aloha>=0.1.1
+imageio>=2.36.1
+jax[cuda12]==0.5.0
+jaxtyping==0.2.36
+ml_collections==1.0.0
+numpy>=1.26.4,<2.0.0
+numpydantic>=1.6.6
+opencv-python>=4.10.0.84
+orbax-checkpoint==0.11.1
+pillow>=11.0.0
+sentencepiece>=0.2.0
+torch>=2.5.1
+tqdm-loggable>=0.2
+typing-extensions>=4.12.2
+tyro>=0.9.5
+wandb>=0.19.1
+boto3>=1.35.7
+types-boto3[boto3,s3]>=1.35.7
+filelock>=3.16.1
+beartype>=0.19.0
+treescope>=0.1.7
+transformers==4.48.1
+torch==2.1.0 
+torchvision==0.16.0 
+torchaudio==2.1.0
+datasets==2.19.1 
+gcsfs==2024.3.1 
+s3fs==2024.3.1
+pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade "jax[cuda12_pip]==0.5.0" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --upgrade
+
+
